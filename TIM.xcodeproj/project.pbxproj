@@ -16,6 +16,8 @@
 		1D017C6C23C4F7750049B095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D017C6B23C4F7750049B095 /* Assets.xcassets */; };
 		1D017C6F23C4F7750049B095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D017C6D23C4F7750049B095 /* LaunchScreen.storyboard */; };
 		1D017C7A23C4F7750049B095 /* TIMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D017C7923C4F7750049B095 /* TIMTests.swift */; };
+		1D017C8923C53D980049B095 /* TouchControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D017C8823C53D980049B095 /* TouchControl.swift */; };
+		1D017C8C23C53DFC0049B095 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D017C8B23C53DFC0049B095 /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		1D017C7523C4F7750049B095 /* TIMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D017C7923C4F7750049B095 /* TIMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIMTests.swift; sourceTree = "<group>"; };
 		1D017C7B23C4F7750049B095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D017C8823C53D980049B095 /* TouchControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchControl.swift; sourceTree = "<group>"; };
+		1D017C8B23C53DFC0049B095 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				1D017C6B23C4F7750049B095 /* Assets.xcassets */,
+				1D017C8A23C53DE80049B095 /* Models */,
 				1D017C8723C53D130049B095 /* Supporting */,
 				1D017C8623C53CF80049B095 /* Controllers */,
 				1D017C8523C53CD30049B095 /* Views */,
@@ -114,6 +119,7 @@
 		1D017C8623C53CF80049B095 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1D017C8823C53D980049B095 /* TouchControl.swift */,
 				1D017C6423C4F7720049B095 /* GameScene.swift */,
 				1D017C6623C4F7720049B095 /* GameViewController.swift */,
 			);
@@ -127,6 +133,14 @@
 				1D017C5E23C4F7720049B095 /* AppDelegate.swift */,
 			);
 			path = Supporting;
+			sourceTree = "<group>";
+		};
+		1D017C8A23C53DE80049B095 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D017C8B23C53DFC0049B095 /* Protocols.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +246,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D017C8C23C53DFC0049B095 /* Protocols.swift in Sources */,
 				1D017C6523C4F7720049B095 /* GameScene.swift in Sources */,
+				1D017C8923C53D980049B095 /* TouchControl.swift in Sources */,
 				1D017C6723C4F7720049B095 /* GameViewController.swift in Sources */,
 				1D017C5F23C4F7720049B095 /* AppDelegate.swift in Sources */,
 			);
